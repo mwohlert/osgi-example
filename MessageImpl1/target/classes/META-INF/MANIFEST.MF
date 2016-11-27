@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1480236372025
+Build-Jdk: 1.8.0_112
+Built-By: xilent
+Bundle-Activator: de.nordakademie.messageimpl.Activator
+Bundle-ManifestVersion: 2
+Bundle-Name: MessageImpl1 OSGi Bundle
+Bundle-SymbolicName: de.nordakademie.MessageImpl1
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: de.nordakademie.messageimpl;uses:="org.osgi.framework,de
+ .nordakademie.message";version="1.0.0.SNAPSHOT"
+Import-Package: de.nordakademie.message;version="[1.0,2)",org.osgi.frame
+ work;version="[1.6,2)"
+Tool: Bnd-1.50.0
